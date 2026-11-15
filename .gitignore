@@ -1,0 +1,22 @@
+# secrets
+.env
+dev.env
+*.env
+!.env.example
+.agent-id
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+
+# generated
+results/
+memory/
+arena-lite/results/
+arena-lite/memory/
+tests/alex/audit/out/
+*.so
